@@ -8,7 +8,9 @@ include $(TOPDIR)/rules.mk
 
 LUCI_TITLE:=Remix Theme
 LUCI_DEPENDS:=
+PKG_VERSION:=0.0.1
+PKG_RELEASE:=0.0
 
-include ../../luci.mk
+include $(TOPDIR)/feeds/luci/luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
