@@ -1,4 +1,5 @@
 :root {
+	background-image: url(bg.jpeg);
 	--main-color: #09c;
 	--header-bg: #09c;
 	--header-color: #fff;
