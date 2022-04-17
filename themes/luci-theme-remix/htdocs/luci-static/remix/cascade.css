@@ -158,6 +158,8 @@ h6 {
 
 html {
 	background-image: url(bg.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
 	overflow-y: hidden;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
@@ -165,7 +167,6 @@ html {
 
 body {
 	font-size: .8rem;
-	background-color: #eee;
 }
 
 html,
@@ -266,13 +267,12 @@ footer {
 	padding: 1rem;
 	text-align: right;
 	white-space: nowrap;
-	color: #aaa;
-	text-shadow: 0 0 2px #bbb;
+	color: rgb(200,200,200);
 }
 
 footer > a {
 	text-decoration: none;
-	color: #aaa;
+	color: rgb(200,200,200);
 }
 
 small {
@@ -2270,7 +2270,8 @@ input[name="nslookup"] {
 	margin-top: 2rem !important;
 	padding: 1rem 3.5rem 2rem;
 	text-align: left;
-	background-color: #fff;
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 10px;
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 2px 0 rgba(0, 0, 0, .12);
 }
 
