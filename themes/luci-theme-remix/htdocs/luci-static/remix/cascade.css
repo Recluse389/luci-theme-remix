@@ -483,24 +483,24 @@ header > .fill > .container > .status > * {
 }
 
 .danger {
-	background-color: #ff7d60 !important;
+	background-color: rgba(255,125,96,0.6) !important;
 }
 
 .warning {
-	background-color: #f0e68c !important;
+	background-color: rgba(240,230,140,0.6) !important;
 }
 
 .success {
-	background-color: #5cb85c !important;
+	background-color: rgba(92,184,92,0.6) !important;
 }
 
 .notice,
 [data-indicator]:not([data-style="inactive"]) {
-	background-color: #5bc0de !important;
+	background-color: rgba(91,192,222,0.6) !important;
 }
 
 .error {
-	color: #f00;
+	color: rgba(255,0,0,0.6);
 }
 
 .alert,
@@ -510,7 +510,7 @@ header > .fill > .container > .status > * {
 	padding: 1rem;
 	border: 0;
 	border-radius: 0 !important;
-	background-color: #fff;
+	background-color: rgba(0,0,0,0.4);
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 2px 0 rgba(0, 0, 0, .12);
 	text-shadow: 1px 1px rgba(0, 0, 0, .1);
 }
@@ -1062,9 +1062,10 @@ td > table > tbody > tr > td,
 .cbi-button[value^="Back"],
 .cbi-button-neutral[onclick="handleConfig(event)"] {
 	font-weight: normal;
-	color: #fff;
-	border: thin solid #2e6da4;
-	background-color: #337ab7;
+	padding-top: 2px;
+	color: rgb(150,150,150);
+	border: thin solid rgba(255,255,255,0.6);
+	background-color: rgba(255,255,255,0.3);
 }
 
 /* light blue */
@@ -1724,6 +1725,7 @@ body:not(.Interfaces) .cbi-rowstyle-2:first-child {
 
 .modal > h4 {
 	margin: .5em 0;
+	color: rgb(150,150,150);
 }
 
 .modal ul {
