@@ -1,32 +1,27 @@
 :root {
-	--text-color-1: rgb(150,150,150);
-	--text-color-2: rgb(200,200,200);
+
+	--text-color-1: rgb(150, 150, 150);
+	--text-color-2: rgb(200, 200, 200);
+	--text-color-3: rgb(20, 20, 20);
 
 	--background-color-1: rgba(0, 0, 0, 0.3);
 	--background-color-2: rgba(0, 0, 0, 0.4);
 	--background-color-3: rgba(0, 0, 0, 0.5);
 	--background-color-4: rgba(0, 0, 0, 0.25);
 
-	--border-color-1: rgba(255,255,255,0.3);
-	--border-color-2: rgba(255,255,255,0.6);
+	--border-color-1: rgba(255, 255, 255, 0.3);
+	--border-color-2: rgba(255, 255, 255, 0.6);
 
-	--box-shadow-color-1: rgba(255,255,255,0.3);
+	--box-shadow-color-1: rgba(255, 255, 255, 0.3);
 
-	--msg-color-red-1: rgba(255,0,0,0.6);
+	--syslog-bg-color: rgba(0, 0, 0, 0.5);
+	--syslog-text-color: rgb(245, 245, 245);
+
+	--msg-color-red-1: rgba(255, 0, 0, 0.6);
 	--msg-color-red-2: rgba(255, 47, 0, 0.6);
 	--msg-color-yellow-1: rgba(255, 229, 0, 0.6);
 	--msg-color-green-1: rgba(0, 255, 0, 0.6);
-	--msg-color-blue-1: rgba(0, 197, 255, 0.6);
+	--msg-color-blue-1: rgba(0, 197, 255, 0.35);
 
-	--main-color: #09c;
-	--header-bg: rgba(0, 0, 0, 0.4);
-	--header-color: #fff;
-	--bar-bg: #5bc0de;
-	--menu-bg-color: rgba(0, 0, 0, 0.5);
-	--menu-color: #5f6368;
-	--menu-color-hover: #202124;
-	--main-menu-color: #202124;
-	--submenu-bg-hover: #d4d4d4;
-	--submenu-bg-hover-active: #09c;
 	--font-body: "Microsoft Yahei", "WenQuanYi Micro Hei", "sans-serif", "Helvetica Neue", "Helvetica", "Hiragino Sans GB";
 }
