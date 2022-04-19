@@ -25,3 +25,22 @@
 
 	--font-body: "Microsoft Yahei", "WenQuanYi Micro Hei", "sans-serif", "Helvetica Neue", "Helvetica", "Hiragino Sans GB";
 }
+
+/* temp fix for channel analysis graph background colour */
+#channel_graph {
+	background-color: var(--background-color-3) !important;
+}
+/* temp fix for realtime graph background colour */
+div#view > div {
+	background-color: var(--background-color-3) !important;
+  }
+/* temp fix for admin > SSH-Keys */
+.cbi-dynlist > p {
+	background-color: var(--background-color-2);
+	color: var(--msg-color-red-2);
+}
+/* temp fix for scheduled tasks background colour */
+div#view > p > textarea {
+	background-color: var(--syslog-bg-color);
+	color: var(--syslog-text-color);
+}
