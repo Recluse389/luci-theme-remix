@@ -237,7 +237,7 @@ code {
 abbr {
 	cursor: help;
 	text-decoration: underline;
-	color: #005470;
+	color: var(--syslog-text-color);
 }
 
 hr {
@@ -503,7 +503,7 @@ header>.fill>.container>.status>* {
 	margin-bottom: 1em;
 	padding: 1rem;
 	border: 0;
-	border-radius: 0 !important;
+	border-radius: 10px !important;
 	background-color: var(--background-color-2);
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 2px 0 rgba(0, 0, 0, .12);
 	text-shadow: 1px 1px rgba(0, 0, 0, .1);
@@ -548,11 +548,11 @@ header>.fill>.container>.status>* {
 
 .main>.main-left>.nav>li a {
 	display: block;
-	color: var(--border-color-1);
+	color: var(--text-color-2);
 }
 
 .main>.main-left>.nav>li.active>a {
-	color: #fff;
+	color: var(--text-color-2);
 }
 
 .main>.main-left>.nav>li.active {
@@ -711,7 +711,7 @@ h1 {
 }
 
 h2 {
-	color: var(--text-color-1);
+	color: var(--text-color-2);
 	font-size: 1.8rem;
 	margin: 2rem 0 0 0;
 	padding-bottom: 10px;
@@ -775,7 +775,7 @@ h5 {
 	font-size: small;
 	line-height: 1.42857143;
 	padding: .5rem;
-	color: #999;
+	color: var(--text-color-2);
 }
 
 .cbi-map-descr+fieldset {
@@ -880,7 +880,7 @@ tr>th,
 .cbi-section-table-row {
 	margin-bottom: 1rem;
 	text-align: center !important;
-	background: #f4f4f4;
+	background: var(--background-color-3);
 }
 
 .cbi-section-table-row:last-child {
@@ -942,7 +942,7 @@ td>table>tbody>tr>td,
 	color: rgba(0, 0, 0, .87);
 	border: 0;
 	border-radius: .2rem;
-	background-color: #f0f0f0;
+	background-color: var(--border-color-2);
 	background-image: none;
 	-webkit-appearance: none;
 	-ms-touch-action: manipulation;
@@ -1511,6 +1511,7 @@ body:not(.Interfaces) .cbi-rowstyle-2:first-child {
 	padding: .25em;
 	white-space: nowrap;
 	text-overflow: ellipsis;
+	padding-right: 1em;
 }
 
 .cbi-dropdown>ul>li .hide-open {
@@ -1687,8 +1688,8 @@ body:not(.Interfaces) .cbi-rowstyle-2:first-child {
 	min-height: 32px;
 	margin: 5em auto;
 	padding: 1em;
-	border-radius: 3px !important;
-	background: #fff;
+	border-radius: 10px !important;
+	background: var(--background-color-3);
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 2px 0 rgba(0, 0, 0, .12);
 }
 
