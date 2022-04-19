@@ -193,9 +193,9 @@ input,
 .cbi-dropdown {
 	min-height: 1.8rem;
 	padding: 0;
-	color: rgb(150,150,150);;
+	color: var(--text-color-1);
 	border: 0;
-	border-bottom: 2px solid rgba(255,255,255,0.3);
+	border-bottom: 2px solid var(--border-color-1);
 	border-radius: 0;
 	outline: 0;
 	background-color: transparent;
@@ -212,8 +212,7 @@ select,
 select:not([multiple="multiple"]):focus,
 input:not(.cbi-button):focus,
 .cbi-dropdown:focus {
-	border-color: #09c;
-	border-color: var(--main-color);
+	border-color: var(--border-color-2);
 }
 
 .cbi-dropdown,
@@ -267,12 +266,12 @@ footer {
 	padding: 1rem;
 	text-align: right;
 	white-space: nowrap;
-	color: rgb(200,200,200);
+	color: var(--text-color-2);
 }
 
 footer > a {
 	text-decoration: none;
-	color: rgb(200,200,200);
+	color: var(--text-color-2);
 }
 
 small {
@@ -348,8 +347,7 @@ small {
 	width: calc(0% + 15rem);
 	height: 100%;
 	height: calc(100% - 4rem);
-	background-color: rgba(0, 0, 0, 0.25);
-	background-color: var(--menu-bg-color);
+	background-color: var(--background-color-1);
 	transition: visibility 400ms, width 400ms;
 }
 
@@ -358,11 +356,9 @@ small {
 	width: 85%;
 	width: calc(100% - 15rem);
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.25);
 }
 
 .main-right > #maincontent {
-	background-color: rgba(0, 0, 0, 0.5);
 	padding-top: 1px;
 }
 
@@ -483,24 +479,24 @@ header > .fill > .container > .status > * {
 }
 
 .danger {
-	background-color: rgba(255,125,96,0.6) !important;
+	background-color: var(--msg-color-red-2) !important;
 }
 
 .warning {
-	background-color: rgba(240,230,140,0.6) !important;
+	background-color: var(--msg-color-yellow-1) !important;
 }
 
 .success {
-	background-color: rgba(92,184,92,0.6) !important;
+	background-color: ver(--msg-color-green-1) !important;
 }
 
 .notice,
 [data-indicator]:not([data-style="inactive"]) {
-	background-color: rgba(91,192,222,0.6) !important;
+	background-color: var(--msg-color-blue-1) !important;
 }
 
 .error {
-	color: rgba(255,0,0,0.6);
+	color: var(--msg-color-red-1) !important;
 }
 
 .alert,
@@ -510,7 +506,7 @@ header > .fill > .container > .status > * {
 	padding: 1rem;
 	border: 0;
 	border-radius: 0 !important;
-	background-color: rgba(0,0,0,0.4);
+	background-color: var(--background-color-2);
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 2px 0 rgba(0, 0, 0, .12);
 	text-shadow: 1px 1px rgba(0, 0, 0, .1);
 }
@@ -666,8 +662,7 @@ body[class*="node-"] > .main > .main-left > .nav > .slide > .menu.active::before
 }
 
 .main > .main-left > .nav > .slide > .slide-menu > .active:hover {
-	background-color: #09c;
-	background-color: var(--main-color);
+	background-color: var(--border-color-2);
 }
 
 /* ripple effect */
@@ -725,7 +720,7 @@ h1 {
 }
 
 h2 {
-	color: rgb(150,150,150);
+	color: var(--text-color-1);
 	font-size: 1.8rem;
 	margin: 2rem 0 0 0;
 	padding-bottom: 10px;
@@ -769,9 +764,9 @@ h5 {
 	padding: 2rem;
 	border: 0;
 	border-radius: 10px;
-	background-color: rgba(0,0,0,0.25);
+	background-color: var(--background-color-1);
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 2px 0 rgba(0, 0, 0, .12);
-	color: rgb(150,150,150);
+	color: var(--text-color-1);
 }
 
 .cbi-modal .cbi-section,
@@ -838,7 +833,7 @@ table,
 .table {
 	overflow-y: hidden;
 	width: 100%;
-	box-shadow: 0 0 0 1px rgba(255,255,255,.3);
+	box-shadow: 0 0 0 1px var(--box-shadow-1);
 }
 
 table > tbody > tr > td,
@@ -918,7 +913,7 @@ tr > th,
 
 div > table > tbody > tr:nth-of-type(2n),
 div > .table > .tr:nth-of-type(2n) {
-	background-color: rgba(0,0,0,0.3);
+	background-color: var(--background-color-1);
 }
 
 /* fix multiple table */
@@ -1063,9 +1058,9 @@ td > table > tbody > tr > td,
 .cbi-button-neutral[onclick="handleConfig(event)"] {
 	font-weight: normal;
 	padding-top: 2px;
-	color: rgb(150,150,150);
-	border: thin solid rgba(255,255,255,0.6);
-	background-color: rgba(255,255,255,0.3);
+	color: var(--text-color-1);
+	border: thin solid var(--border-color-2);
+	background-color: var(--background-color-1);
 }
 
 /* light blue */
@@ -1161,8 +1156,7 @@ td > table > tbody > tr > td,
 
 .tabs > li[class~="active"],
 .tabs > li:hover {
-	border-bottom-color: #09c;
-	border-bottom-color: var(--main-color);
+	border-bottom-color: var(--border-color-2);
 }
 
 .tabs > li:hover {
@@ -1178,12 +1172,11 @@ td > table > tbody > tr > td,
 }
 
 .tabs > li[class~="active"] > a {
-	color: #09c;
-	color: var(--main-color);
+	color: var(--border-color-2);
 }
 
 .cbi-tabmenu {
-	border: thin solid rgba(255,255,255,0.3);
+	border: thin solid var(--border-color-1);
 	border-bottom: 0;
 }
 
@@ -1196,7 +1189,7 @@ td > table > tbody > tr > td,
 }
 
 .cbi-tabmenu {
-	background-color: rgba(0,0,0,0.25);
+	background-color: var(--background-color-1);
 }
 
 .cbi-section .cbi-section-remove:nth-of-type(2n),
@@ -1725,7 +1718,7 @@ body:not(.Interfaces) .cbi-rowstyle-2:first-child {
 
 .modal > h4 {
 	margin: .5em 0;
-	color: rgb(150,150,150);
+	color: var(--text-color-1);
 }
 
 .modal ul {
@@ -2272,7 +2265,7 @@ input[name="nslookup"] {
 	margin-top: 2rem !important;
 	padding: 1rem 3.5rem 2rem;
 	text-align: left;
-	background-color: rgba(0,0,0,0.3);
+	background-color: var(--background-color-1);
 	border-radius: 10px;
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 2px 0 rgba(0, 0, 0, .12);
 }
@@ -2346,7 +2339,7 @@ input[name="nslookup"] {
 
 .controls > * > label {
 	margin-bottom: .2rem;
-	color: rgb(150,150,150);
+	color: var(--text-color-1);
 }
 
 [data-page="admin-system-opkg"] div.btn {
