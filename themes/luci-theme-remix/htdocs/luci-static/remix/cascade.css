@@ -293,13 +293,12 @@ small {
 .main>.loading {
 	position: fixed;
 	z-index: 1000;
-	top: 0;
+	top: 22px;
 	opacity: 1;
 	visibility: visible;
 	width: 100%;
 	height: 100%;
 	pointer-events: none;
-	background-color: rgb(240, 240, 240);
 	transition: visibility 400ms, opacity 400ms;
 }
 
@@ -1768,6 +1767,7 @@ body.modal-overlay-active #modal_overlay {
 .spinning {
 	position: relative;
 	padding-left: 32px !important;
+	color: var(--text-color-2);
 }
 
 .spinning::before {
@@ -2060,6 +2060,7 @@ a {
 .ifacebox-head {
 	padding: .25em;
 	background: var(--background-color-2);
+	color: var(--text-color-3);
 }
 
 .ifacebox-head.active {
@@ -2095,6 +2096,7 @@ a {
 .zonebadge>strong {
 	display: inline-block;
 	margin: 0 .2rem;
+	color: var(--text-color-3);
 }
 
 .cbi-value-field .cbi-input-checkbox,
