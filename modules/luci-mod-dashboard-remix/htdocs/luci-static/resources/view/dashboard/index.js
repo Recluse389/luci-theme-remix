@@ -8,7 +8,7 @@
 document.querySelector('head').appendChild(E('link', {
 	'rel': 'stylesheet',
 	'type': 'text/css',
-	'href': L.resource('view/dashboard/css/custom.css')
+	'href': L.resource('../remix/dashboard.css')
 }));
 
 function invokeIncludesLoad(includes) {
