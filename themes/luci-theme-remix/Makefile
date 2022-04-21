@@ -11,8 +11,8 @@ include $(TOPDIR)/rules.mk
 
 LUCI_TITLE:=Remix Theme
 LUCI_DEPENDS:=+luci-base
-PKG_VERSION:=0.1.0
-PKG_RELEASE:=0.1
+PKG_VERSION:=20210421.03-05
+PKG_RELEASE:=20210421.03-05
 PKG_LICENSE:=Apache-2.0
 
 include $(TOPDIR)/feeds/luci/luci.mk
