@@ -8,7 +8,7 @@
  @import url("custom.css");
 
 .Dashboard {
-    color: var(--border-color-2);
+    color: var(--border-color-1);
 }
 
 .Dashboard h3 {
