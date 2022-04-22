@@ -8,11 +8,11 @@
  @import url("custom.css");
 
 .Dashboard {
-    color: var(--border-color-1);
+    color: var(--text-color-2);
 }
 
 .Dashboard h3 {
-    color:var(--text-color-3);
+    color: var(--text-color-1);
 }
 
 .Dashboard hr {
